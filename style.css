@@ -1,0 +1,45 @@
+.jumbotron{
+	padding-top: 5rem;
+	background-color: lightblue;
+}
+.jumbotron img{ width: 300px;
+    height: 200px;
+    background: white;
+    -webkit-transition: width 4s, height 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 4s, height 2s;
+}
+ .jumbotron img:hover{
+    width: 300px;
+    height: 300px;
+ 		background: #a1a1a1;
+  color: #000000;
+  transition: 1s;
+  animation-duration: 1s;
+  border: none;
+ }
+ #Projects{
+ 	background-color: lightblue;
+ }
+ section{
+ 	padding-top: 2rem
+ }
+ footer{
+ 	margin-top: 2rem;
+ 	background-color: #0dcaf0;
+
+ }
+ footer a{
+ 	color: white;
+ 	font-weight: bold;
+ 	text-decoration: none;
+ }
+footer a:hover{
+ 	color:lightblue;
+ }
+ #Projects .card img:hover{
+ 	background: #a1a1a1;
+  color: #000000;
+  transition: 1s;
+  animation-duration: 1s;
+  border: none;
+ }
